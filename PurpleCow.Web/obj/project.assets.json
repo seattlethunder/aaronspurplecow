@@ -213,11 +213,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\repos\\image\\PurpleCow.Web\\PurpleCow.Web.csproj",
+      "projectUniqueName": "D:\\repos\\imagefull\\PurpleCow.Web\\PurpleCow.Web.csproj",
       "projectName": "PurpleCow.Web",
-      "projectPath": "D:\\repos\\image\\PurpleCow.Web\\PurpleCow.Web.csproj",
+      "projectPath": "D:\\repos\\imagefull\\PurpleCow.Web\\PurpleCow.Web.csproj",
       "packagesPath": "C:\\Users\\linde\\.nuget\\packages\\",
-      "outputPath": "D:\\repos\\image\\PurpleCow.Web\\obj\\",
+      "outputPath": "D:\\repos\\imagefull\\PurpleCow.Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\linde\\AppData\\Roaming\\NuGet\\NuGet.Config",

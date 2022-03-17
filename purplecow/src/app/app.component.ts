@@ -7,20 +7,22 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  public forecasts?: WeatherForecast[];
+
+  public images?: Image[];
 
   constructor(http: HttpClient) {
-    http.get<WeatherForecast[]>('/weatherforecast').subscribe(result => {
-      this.forecasts = result;
+
+
+    http.get<Image[]>('/image').subscribe(result => {
+      this.images = result;
     }, error => console.error(error));
+
   }
 
   title = 'purplecow';
 }
 
-interface WeatherForecast {
-  date: string;
-  temperatureC: number;
-  temperatureF: number;
-  summary: string;
+interface Image {
+  name: string;
+  id: number;
 }

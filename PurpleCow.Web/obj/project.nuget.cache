@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "O0EYPCrhq4reidHDx+miNCzh7zLDjpr1+dUWKDkovxEAJDZn2M889BDsvmoTwK8b3n9Hog+F74M3kzRa+d1EUQ==",
+  "dgSpecHash": "WZ+8YlQnHNeedbO7B2k2EAJlAqFQVbjyM5SjRwW6OGpE/bCg/3yL8h3XM5ms9X//Dy7Y8Gv+AbgsKbKJzyNQ/g==",
   "success": true,
-  "projectFilePath": "D:\\repos\\image\\PurpleCow.Web\\PurpleCow.Web.csproj",
+  "projectFilePath": "D:\\repos\\imagefull\\PurpleCow.Web\\PurpleCow.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\linde\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\linde\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
