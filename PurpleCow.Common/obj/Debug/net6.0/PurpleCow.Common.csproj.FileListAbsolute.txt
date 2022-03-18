@@ -1,0 +1,12 @@
+D:\repos\imagefull\PurpleCow.Common\bin\Debug\net6.0\PurpleCow.Common.deps.json
+D:\repos\imagefull\PurpleCow.Common\bin\Debug\net6.0\PurpleCow.Common.dll
+D:\repos\imagefull\PurpleCow.Common\bin\Debug\net6.0\PurpleCow.Common.pdb
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.csproj.AssemblyReference.cache
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.AssemblyInfoInputs.cache
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.AssemblyInfo.cs
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.csproj.CoreCompileInputs.cache
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.dll
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\refint\PurpleCow.Common.dll
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\PurpleCow.Common.pdb
+D:\repos\imagefull\PurpleCow.Common\obj\Debug\net6.0\ref\PurpleCow.Common.dll

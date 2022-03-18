@@ -1,0 +1,15 @@
+D:\repos\imagefull\PurpleCow.Data\bin\Debug\net6.0\PurpleCow.Data.deps.json
+D:\repos\imagefull\PurpleCow.Data\bin\Debug\net6.0\PurpleCow.Data.dll
+D:\repos\imagefull\PurpleCow.Data\bin\Debug\net6.0\PurpleCow.Data.pdb
+D:\repos\imagefull\PurpleCow.Data\bin\Debug\net6.0\PurpleCow.Common.dll
+D:\repos\imagefull\PurpleCow.Data\bin\Debug\net6.0\PurpleCow.Common.pdb
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.csproj.AssemblyReference.cache
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.AssemblyInfoInputs.cache
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.AssemblyInfo.cs
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.csproj.CoreCompileInputs.cache
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.csproj.CopyComplete
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.dll
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\refint\PurpleCow.Data.dll
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\PurpleCow.Data.pdb
+D:\repos\imagefull\PurpleCow.Data\obj\Debug\net6.0\ref\PurpleCow.Data.dll

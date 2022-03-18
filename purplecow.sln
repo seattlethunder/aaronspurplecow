@@ -7,6 +7,10 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "purplecow", "purplecow\purp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PurpleCow.Web", "PurpleCow.Web\PurpleCow.Web.csproj", "{04DDD48E-75AF-4DE8-8445-8F0603080DB4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleCow.Common", "PurpleCow.Common\PurpleCow.Common.csproj", "{1D900F4C-774A-469F-8011-486F066C35D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PurpleCow.Data", "PurpleCow.Data\PurpleCow.Data.csproj", "{F7EC6DDC-A3D7-471F-BBD2-671B08ABD2A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +27,14 @@ Global
 		{04DDD48E-75AF-4DE8-8445-8F0603080DB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04DDD48E-75AF-4DE8-8445-8F0603080DB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04DDD48E-75AF-4DE8-8445-8F0603080DB4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D900F4C-774A-469F-8011-486F066C35D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D900F4C-774A-469F-8011-486F066C35D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D900F4C-774A-469F-8011-486F066C35D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D900F4C-774A-469F-8011-486F066C35D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EC6DDC-A3D7-471F-BBD2-671B08ABD2A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EC6DDC-A3D7-471F-BBD2-671B08ABD2A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EC6DDC-A3D7-471F-BBD2-671B08ABD2A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EC6DDC-A3D7-471F-BBD2-671B08ABD2A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
