@@ -7,7 +7,8 @@ public interface IMapperSession
     Task Rollback();
     void CloseTransaction();
     Task Save(Image entity);
-    Task Delete(Image entity);
+    void Delete(Image entity);
     List<Image> GetImages();
+    void SaveImage(Image entity);
     IQueryable<Image> Images { get; }
 }

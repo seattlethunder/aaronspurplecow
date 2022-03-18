@@ -4,21 +4,30 @@
 
 <p *ngIf="!images"><em>Loading... Please refresh once the ASP.NET backend has started. See <a href="https://aka.ms/jspsintegrationangular">https://aka.ms/jspsintegrationangular</a> for more details.</em></p>
 
-<table *ngIf="images">
-    <thead>
-        <tr>
-            <th>Id</th>
-            <th>Name</th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let image of images">
-        <td>{{ image.id}}</td>
-        <td>{{ image.name }}</td>
-        <td></td>
-        <td></td>
-      </tr>
-    </tbody>
+<table *ngIf="images" border="1">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let image of images">
+      <td>{{ image.id}}</td>
+      <td>{{ image.name }}</td>
+    </tr>
+  </tbody>
 </table>
+
+<br />
+<br />
+Sample Json Strings for Post Testing:
+<br>
+{{'{"Id":"B8B63B1D-D12D-4D61-8895-BE6B3D753510","Name":"Ukraine Orphanage Assistance"}'}}
+<br>
+{{'{"Id":"641DB8D6-19A1-4FA0-9CCF-49F3BCDA498A","Name":"Poland Refugee Food and Clothing"}'}}
+<br>
+{{'{"Id":"44A476FA-5A58-439B-BD54-B67FAC5665A9","Name":"http://hopeforukraine.net/"}'}}
+<br>
+

@@ -43,12 +43,26 @@ namespace PurpleCow.Data
 
         public async Task Save(Image entity)
         {
-            await _session.SaveOrUpdateAsync(entity);
+            await _session.SaveAsync(entity);
         }
 
-        public async Task Delete(Image entity)
+        public void SaveImage(Image entity)
         {
-            await _session.DeleteAsync(entity);
+            using (var transaction = _session.BeginTransaction())
+            { 
+                _session.Save(entity);
+                transaction.Commit();
+            }
+        }
+
+        public  void Delete(Image entity)
+        {
+            using (var transaction = _session.BeginTransaction())
+            {
+                _session.DeleteAsync(entity);
+                transaction.Commit();
+            }
+            
         }
 
         /// <summary>

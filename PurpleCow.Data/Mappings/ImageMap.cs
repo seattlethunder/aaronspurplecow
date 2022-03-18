@@ -24,7 +24,7 @@ namespace PurpleCow.Data.Mappings
                 x.NotNullable(true);
             });
 
-            Table("Image");
+            Table("PCImage");
         }
     }
 }

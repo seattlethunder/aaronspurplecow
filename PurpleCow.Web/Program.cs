@@ -9,16 +9,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
 var connString = System.Configuration.ConfigurationManager.ConnectionStrings["pcConnectionString"].ConnectionString;
-
-var app = builder.Build();
 
 // have to abandon this, wasting way too much time troubleshooting
 // The NHibernate library supports .Net Core, but it looks like the SQL driver does not
 // was so excited that the new Nhibernate library was .Net Core compatible
-
+// solution:  https://stackoverflow.com/questions/63856236/could-not-create-the-driver-from-nhibernate-driver-sqlserverdriver
 NHibernateExtensions.StartNHibernate(builder.Services, connString);
+
+var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

@@ -9,7 +9,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   public images?: Image[];
-
+  
   constructor(http: HttpClient) {
 
 
