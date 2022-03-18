@@ -8,6 +8,33 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 
 You can also open the PurpleCow.SLN solution in Visual Studio and then start the app (F5]).  A command window will open that runs the API layer.  A browser window will open to https://localhost:4200/
 
+## Docker 
+
+The docker image is in the PurpleCow.Web folder
+Starting this will spin up the PurpleCow.Web project which runs the API on http://localhost:3000.  
+
+Please see previous step to get the Development server up and running which serves the web page that connects to the API layer. 
+
+## SQL Server Setup
+
+Create a database named "purplecow"
+Can setup the user/password as needed, give them read/write roles to this database. 
+Edit connection string in the app.config file in the PurpleCow.Web project after creating the user
+
+Run this script in SSMS to create the image table and data:
+
+create table PCImage (Id uniqueidentifier, [name] nvarchar(50))
+
+insert into PCImage (Id, [name]) values (newid(), 'Fort Collins Food Bank Warehousing'),
+(newid(), 'Northern Colorado Rescue Mission Food Service'),
+(newid(), 'Cameron Peak Fire Restoration Effort')
+
+## Changing API Ports
+
+Can configure the port for the API layer without building code, but you do need to restart the PurpleCow.Web project to setup the listener to the new port.  The port is in:
+Properties/Launchsettings.json
+To get the UI to communicate to the new port the API is using, edit the target string in the proxy.conf.js file in the purplecow project here:  /src/app/
+
 
 ## Technical Approach to PurpleCow
 
@@ -30,12 +57,6 @@ You can use these JSON strings in testing the POST API:
 {"Id":"B8B63B1D-D12D-4D61-8895-BE6B3D753510","Name":"Ukraine Orphanage Assistance"}
 
 {"Id":"44A476FA-5A58-439B-BD54-B67FAC5665A9","Name":"Poland Refugee Food and Clothing"}
-
-## Configuring Ports
-
-Can configure the port for the API layer without building code, but you do need to restart the PurpleCow.Web project to setup the listener to the new port.  The port is in:
-Properties/Launchsettings.json
-To get the UI to communicate to the new port the API is using, edit the target string in the proxy.conf.js file in the purplecow project here:  /src/app/
 
 
 ## Future Improvements
